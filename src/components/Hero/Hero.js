@@ -7,7 +7,6 @@ const Hero = props => (
       <h2 className={styles.title}>{props.title}</h2>  
       <img className={styles.image} src={props.image}></img>
     </header>
-      
 );
 Hero.propTypes = {
   title: PropTypes.node.isRequired,
